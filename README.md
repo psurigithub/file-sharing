@@ -1,34 +1,42 @@
 # **Secure File Sharing System** 🚀
 
 ## **Overview** 🧐
-Welcome to the **Secure File Sharing System** project! This system enables secure upload, download, and management of files for authorized users. It implements **JWT-based authentication**, file encryption, and role-based access control to ensure **secure file management**.
+Welcome to the **Secure File Sharing System** project! This system allows **Ops Users** to upload files, and **Client Users** to download files through a secure, encrypted URL. The system ensures that only authorized users have access to sensitive files, and uses email verification for user registration.
+
+The system consists of **REST APIs** that provide functionalities for **file uploads**, **user sign-up and login**, **email verification**, **file download with encrypted URLs**, and more.
 
 ---
 
 ## **Features** ✨
-- **User Authentication**: Sign up, login, and email verification.
-- **Role-Based Access Control**: Only Ops users can upload files, and only Client users can access the download links.
-- **File Upload**: Upload `.pptx`, `.docx`, and `.xlsx` files.
-- **Secure Download**: Generate encrypted download links for files.
-- **File Listing**: List all files uploaded by authorized users.
+
+### **Ops User** 🛠️
+- **Login**: Ops users can log in using their credentials.
+- **Upload Files**: Ops users can upload files of type `.pptx`, `.docx`, and `.xlsx`.
+
+### **Client User** 👤
+- **Sign Up**: New users can sign up and receive an encrypted URL for activation.
+- **Email Verification**: After signing up, an email verification link is sent.
+- **Login**: Client users can log in using their credentials.
+- **Download File**: Client users can download files through a secure, encrypted URL.
+- **List Files**: Client users can view all available files.
 
 ---
 
 ## **Technologies Used** 💻
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB (MongoDB Atlas)
-- **Authentication**: JWT (JSON Web Tokens)
-- **File Upload**: Multer
-- **Encryption**: crypto
-- **Email Service**: Nodemailer for email verification
-- **Other**: dotenv for environment variables
+- **Backend Framework**: Nodejs, expressjs
+- **Database**: NoSQL Database (MongoDBAtlas)
+- **Authentication**: JWT (JSON Web Tokens) for secure authentication
+- **File Upload**: Multer (for Node.js) 
+- **Encryption**: Secure URL generation using encryption techniques.
+- **Others**: dotenv for environment variables.
 
 ---
 
 ## **Installation** ⚙️
 
 ### 1. **Clone the Repository** 🖥️
-Clone this repository to your local machine using:
+Clone this repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/secure-file-sharing.git
 cd secure-file-sharing
+
