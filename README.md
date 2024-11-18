@@ -1,6 +1,6 @@
 # **Secure File Sharing System** 🚀
 
-## **Overview** 🧐
+## **Overview** 
 Welcome to the **Secure File Sharing System** project! This system allows **Ops Users** to upload files, and **Client Users** to download files through a secure, encrypted URL. The system ensures that only authorized users have access to sensitive files, and uses email verification for user registration.
 
 The system consists of **REST APIs** that provide functionalities for **file uploads**, **user sign-up and login**, **email verification**, **file download with encrypted URLs**, and more.
