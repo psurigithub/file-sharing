@@ -37,6 +37,6 @@ The system consists of **REST APIs** that provide functionalities for **file upl
 ### 1. **Clone the Repository** 🖥️
 Clone this repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/secure-file-sharing.git
+git clone (https://github.com/psurigithub/file-sharing.git)
 cd secure-file-sharing
 
